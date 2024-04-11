@@ -17,14 +17,14 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 300px;
+    width: 500px;
 }
 
 .calculator_display {
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 10px;
     padding: 10px;
     text-align: right;
@@ -41,7 +41,7 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 24px;
     padding: 15px;
     transition: background-color 0.3s ease;
 }
@@ -61,7 +61,7 @@ body {
 
 .key--equal {
     background-color: #ff9800;
-    color: #fff;
+    color: #000000;
 }
 
 .key--equal:hover {
@@ -73,5 +73,8 @@ button[data-action="clear"] {
 }
 
 button[data-action="decimal"] {
+    grid-column: span 2;
+}
+button[data-action="calculate"] {
     grid-column: span 2;
 }
