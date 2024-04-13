@@ -1,6 +1,6 @@
 Simple JavaScript Calculator
 
-This is a basic JavaScript calculator application built using HTML, CSS, and JavaScript. It provides simple arithmetic calculations such as addition, subtraction, multiplication, division, exponents and root calculation.
+This is a basic JavaScript calculator application built using HTML, CSS, and JavaScript. It provides simple arithmetic calculations such as addition, subtraction, multiplication and division.
 
 Features
 
@@ -9,8 +9,6 @@ Subtraction (-)
 Multiplication (×)
 Division (÷)
 Decimal Point (.)
-Exponents (^)
-Root (√)
 Clear (AC)
 Calculation (=)
 
