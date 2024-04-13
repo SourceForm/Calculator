@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const display = document.querySelector('.calculator_display');
+    const display = document.querySelector('.display');
     const operatorKeys = document.querySelectorAll('.key--operator');
     let previousInput = '';
     let currentInput = '';
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Operation:', operation);
     }
 
-    document.querySelectorAll('.calculator_keys button').forEach(button => {
+    document.querySelectorAll('.keys button').forEach(button => {
         button.addEventListener('click', function () {
             const action = this.dataset.action;
             const buttonContent = this.textContent;
