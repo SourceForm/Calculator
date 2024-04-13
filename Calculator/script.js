@@ -116,5 +116,19 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+    // Listen for keyboard events
+    document.addEventListener('keydown', function(event) {
+        const key = event.key;
+        if (!isNaN(key) || key === '.') { // If the key is a number or decimal point
+            handleNumberClick(key);
+        } else if (key === '+' || key === '-' || key === '*' || key === '/') { // If the key is an operator
+            handleOperatorClick(key === '*' ? 'multiply' : key === '/' ? 'divide' : key === '+' ? 'add' : 'subtract');
+        } else if (key === '=' || key === 'Enter') { // If the key is the equals sign or Enter key
+            handleEqualClick();
+        } else if (key === 'Escape') { // If the key is the Escape key
+            handleClearClick();
+        }
+    });
 });
 

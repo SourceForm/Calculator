@@ -84,6 +84,16 @@ button[data-action="clear"] {
 button[data-action="decimal"] {
     grid-column: span 1;
 }
+
 button[data-action="calculate"] {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+button[data-action="add"] {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+button[class="key--0"] {
     grid-column: span 2;
 }
