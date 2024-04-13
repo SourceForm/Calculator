@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 0;
+    margin: 10;
     padding: 0;
 }
 
@@ -69,12 +69,15 @@ body {
 }
 
 button[data-action="clear"] {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 button[data-action="decimal"] {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 button[data-action="calculate"] {
     grid-column: span 2;
+}
+.indented {
+    text-indent : -10em;
 }

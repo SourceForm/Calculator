@@ -63,6 +63,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 case 'divide':
                     currentInput = prev / current;
                     break;
+                case 'exponent' :
+                    currentInput = Math.pow(prev, current)
+                    break;
+                case 'sqrt' :
+                    currentInput = Math.pow(current, 1/prev)
+                    break;
                 default:
                     break;
             }
