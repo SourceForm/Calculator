@@ -9,6 +9,8 @@ Subtraction (-)
 Multiplication (×)
 Division (÷)
 Decimal Point (.)
+Exponents (^)
+Root (√)
 Clear (AC)
 Calculation (=)
 
