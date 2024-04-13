@@ -63,9 +63,13 @@ body {
     background-color: #f0f0f0;
     color: #333;
 }
+.key--operator.active {
+    filter: brightness(80%);
+}
 
-.key--operator:hover {
-    background-color: #ddd;
+.key--operator.active {
+    background-color: #333; /* Darken the background color when active */
+    color: #fff; /* Change text color to white when active */
 }
 
 .key--equal {
@@ -94,6 +98,8 @@ button[data-action="add"] {
         grid-column: span 1;
         grid-row: span 2;
     }
+
 button[class="key--0"] {
     grid-column: span 2;
 }
+
